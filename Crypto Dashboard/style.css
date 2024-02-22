@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.cardCont{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:.3fr 1fr;
+    height: 6rem;
+    width: 25rem;
+    box-shadow: 1px 1px 5px rgb(161, 161, 161);
+    padding: 0.5rem;
+    margin-bottom: .5rem;
+    border-radius: .2rem;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img{
+    width: 3rem;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#criptoName,#price{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#percent,#percent{
+    font-size: 1.1rem;
+}
+
+#percent{
+    color: red;
+}
