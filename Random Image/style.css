@@ -1,0 +1,26 @@
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.gallery{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img{
+    /* height: 350px; */
+    width: 250px;
+    margin:10px;
+    background-position:center;
+    object-fit: contain;
+}
+
+footer{
+    /* height: 100px; */
+    padding: 10px;
+}
